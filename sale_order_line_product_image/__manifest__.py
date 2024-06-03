@@ -3,7 +3,7 @@
 
 {
 	'name': "Product Image On Sale Order Line",
-	'version': "14.0.0.0",
+	'version': '17.0',
 	'category': "Sales",
 	'summary': "Display product image on sale order line print product image on sale order report print image on sale order line product image print product image on sale line product image in sale order line print Product image on sales order line",
 	'description': """

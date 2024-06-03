@@ -21,7 +21,7 @@
 #############################################################################
 {
     'name': "Product Stock Alert",
-    'version': '14.0.1.0.0',
+    'version': '17.0',
     'summary': """Product Stock Alert""",
     "category": 'Inventory',
     'description': """Product Stock Alert""",

@@ -4,7 +4,7 @@
 
 {
     'name': "Product App",
-    'version': '14.0.1.0',
+    'version': '17.0',
     'category': 'Sales/Sales',
     'summary': 'Product App.This module provide seperate menu in main of product.Product Menu|Product|Main Menu Product|Menu Product.',
     'description': """Product App
