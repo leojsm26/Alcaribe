@@ -69,7 +69,10 @@ class inv_nota_credito(models.TransientModel):
 
             payment_method = payment_id.payment_method_id
             currency_id = payment_id.currency_id
-            dict_payment = payment_method.read()[0]
+            payment_method_read = payment_method.read()
+            if not payment_method_read:
+                continue
+            dict_payment = payment_method_read[0]
             tasa_payment = currency_id._get_conversion_rate(currency_id, invoice.company_id.currency_id,
                                                             invoice.company_id, invoice.invoice_date) if (
                         currency_id.symbol == '$' and currency_id.name == 'USD') else 1
